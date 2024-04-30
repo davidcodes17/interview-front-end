@@ -9,6 +9,7 @@ import {
   Input,
   Text,
 } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 const LoginPage = () => {
   return (
@@ -38,6 +39,8 @@ const LoginPage = () => {
               <Button
                 width={"100%"}
                 mt={5}
+                as={Link}
+                to={"/home"}
                 py={6}
                 borderRadius={15}
                 bg={"darkorchid"}
