@@ -5,7 +5,7 @@ const HeroContent = () => {
     <Box p={{ lg: 20, md: 20, sm: 10, base: 10 }}>
       <Heading
         textAlign={"center"}
-        fontSize={{ lg: 70, md: 60, sm: 40, base: 20 }}
+        fontSize={{ lg: 70, md: 60, sm: 40, base: "30px" }}
       >
         Welcome to the Store
       </Heading>

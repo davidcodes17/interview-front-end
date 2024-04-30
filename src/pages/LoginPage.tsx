@@ -13,9 +13,12 @@ import {
 const LoginPage = () => {
   return (
     <Box>
-      <Flex>
-        <Box width={"40vw"} height={"100vh"}>
-          <Box p={10} mt={20} mx={10}>
+      <Flex flexWrap={"wrap"}>
+        <Box
+          width={{ lg: "40vw", md: "40vw", sm: "100vw", base: "100vw" }}
+          height={"100vh"}
+        >
+          <Box p={10} mt={20} mx={{ lg: 10, md: 10, sm: 0, base: 0}}>
             <Heading>Welcome Back👋</Heading>
             <Text>Please fill in your appropriate details</Text>
 
@@ -40,9 +43,7 @@ const LoginPage = () => {
                 bg={"darkorchid"}
                 fontWeight={400}
                 color={"#fff"}
-                onClick={()=>{
-                    
-                }}
+                onClick={() => {}}
                 _hover={{ bg: "darkorchid" }}
               >
                 Login
@@ -54,6 +55,7 @@ const LoginPage = () => {
           bg={"darkorchid"}
           src="/bg.svg"
           width={"60vw"}
+          display={{ lg: "block", md: "block", sm: "none", base: "none" }}
           objectFit={"contain"}
           height={"100vh"}
         />

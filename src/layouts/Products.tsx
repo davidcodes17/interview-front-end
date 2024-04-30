@@ -4,7 +4,7 @@ import Card from "../components/Card";
 const Products = () => {
   const date = new Date();
   return (
-    <Box>
+    <Box pb={20}>
       <Flex
         gap={{ lg: 20, md: 20, sm: 5, base: 5 }}
         justifyContent={"center"}

@@ -12,13 +12,13 @@ const Card = (product: Product) => {
     <Box
       cursor={"pointer"}
       mt={10}
-      width={{ lg: 250, md: 250, sm: 200, base: 200 }}
-      minWidth={{ lg: 250, md: 250, sm: 200, base: 200 }}
+      width={{ lg: 250, md: 250, sm: 200, base: 180 }}
+      minWidth={{ lg: 250, md: 250, sm: 200, base: 180 }}
     >
       {/* <Image src={"https://placehold.co/600x400" ? "" :""} /> */}
       <Box
-        width={{ lg: 250, md: 250, sm: 200, base: 200 }}
-        height={{ lg: 250, md: 250, sm: 200, base: 200 }}
+        width={{ lg: 250, md: 250, sm: 200, base: 180 }}
+        height={{ lg: 250, md: 250, sm: 200, base: 180 }}
         bg={"#000"}
         borderRadius={20}
       ></Box>
